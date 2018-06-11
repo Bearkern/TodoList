@@ -1,0 +1,65 @@
+.tab-content {
+  width: 620px;
+}
+
+/* nav title */
+.nav {
+  background-color: #4A90E2;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.nav .active {
+  color: #FFFFFF;
+  border-bottom: 5px solid #00408B;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #00408B;
+}
+
+/* nav content */
+.nav-content {
+  background-color: #E1E1E1;
+  width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#eventAdd {
+  margin: 0 auto;
+  width: 620px;
+  background-color: #F2F2F2;
+  border-radius: 5px 5px 0 0;
+}
+
+#newEvent {
+  padding: 24px 24px;
+  border-bottom: 2px solid #C8C8C8;
+}
+#newEvent a {
+  padding: 0 15px;
+  
+}
+
+.inputField {
+  padding: 24px 72px;
+}
+
+#eventAdd .btn {
+  border-radius: 0;
+  color: white;
+  background: #4A90E2;
+  width: 310px;
+  padding: 16px 0;
+  float: left;
+}
+
+#eventAdd .btn.cancel {
+  background: #FFFFFF;
+  color: #D0021B;
+}
